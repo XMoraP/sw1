@@ -1,0 +1,14 @@
+<%- include("header", {}) %>
+<h1><%= title %></h1>
+    <ul id="messages">
+        <form id="form">
+            <input id="input">
+            <button>send</button>
+        </form>
+    </ul>
+<%- include("footer", {}) %>
+<script src="/socket.io/socket.io.js" defer></script>
+<script src="/stylesheets/chat.js" defer></script>
+
+
+   

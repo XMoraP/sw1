@@ -1,0 +1,14 @@
+<%- include("header", {}) %>
+<h1><%= title %></h1>
+<form id="registerForm" method="post" action="/register">
+    <label>Username:</label>
+    <input type="text" id="user" name="user"><br>
+    <label>Password:</label>
+    <input type="password" id="pass" name="pass"><br>
+    <label>Confirm Password:</label>
+    <input type="password" id="confirmPass" name="confirmPass">
+    <button type="submit">Submit</button>
+</form>
+<%- include("footer", {}) %>
+
+
